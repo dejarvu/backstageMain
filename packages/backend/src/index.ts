@@ -62,5 +62,8 @@ backend.add(import('@backstage/plugin-kubernetes-backend'));
 // notifications and signals plugins
 backend.add(import('@backstage/plugin-notifications-backend'));
 backend.add(import('@backstage/plugin-signals-backend'));
-
+// AIKA - AI Knowledge Assistant
+backend.add(import('@internal/backstage-plugin-aika-backend'));
 backend.start();
+
+
